@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fillAfter="true"
+    android:shareInterpolator="true"
+    android:repeatMode="reverse"
+    >
+    <scale
+        android:duration="1000"
+        android:fillAfter="true"
+        android:fromXScale="0.5"
+        android:fromYScale="0.5"
+        android:toXScale="1"
+        android:toYScale="1"
+        android:repeatCount="infinite"/><!--次数 ,infinite这个为无线循环播放哦-->
+    <alpha
+        android:duration="2000"
+        android:fillAfter="true"
+        android:fromAlpha="0.7"
+        android:toAlpha="1"/>
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="90"
+        android:fillAfter="true"
+        android:duration="1000"
+        />
+    <translate
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="100%"
+        android:toYDelta="-100%"
+        android:fillAfter="true"
+        android:duration="2000"
+        />
+</set>
